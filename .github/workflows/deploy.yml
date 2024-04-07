@@ -27,7 +27,7 @@ jobs:
           tags: 9967980843/week-18-cicd:latest # Replace with your Docker Hub username and repository
 
       - name: Verify Pushed Image
-        run: docker pull 100xdevs/week-18-class:latest # Replace with your Docker Hub username and repository
+        run: docker pull 9967980843/week-18-cicd:latest # Replace with your Docker Hub username and repository
 
 
     # - name: Deploy to EC2
